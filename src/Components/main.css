@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main_container {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('netflix_bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand_name h2 {
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+}
+
+.title1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.register {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.main_box {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
